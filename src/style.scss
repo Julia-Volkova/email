@@ -1,0 +1,138 @@
+.container {
+  .header {
+    width: 99%;
+    &__logo {
+    }
+    &__info {
+      padding-bottom: 20px;
+      font-family: Arial, sans-serif;
+    }
+    &__about {
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+      color: #333333;
+      width: 49%;
+      display: inline-block;
+    }
+    &__link {
+      font-size: 18px;
+      color: #333333;
+      font-family: Arial, sans-serif;
+      text-align: right;
+      width: 50%;
+      display: inline-block;
+      a {
+        text-decoration: none;
+      }
+    }
+    &__line {
+      height: 3px;
+      background-color: #3995e0;
+    }
+  }
+
+  .content {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 60px;
+    &__wrap {
+      padding-bottom: 50px;
+    }
+    &__column {
+      text-align: center;
+      font-size: 24px;
+    }
+    &__column2 {
+      padding-left: 10px;
+    }
+    &__title {
+      height: 30px;
+      font-family: Arial, sans-serif;
+      color: red;
+      text-align: center;
+      width: 10%;
+      padding: 30px 0;
+      font-size: 40px;
+    }
+    &__name {
+      font-size: 35px;
+      font-family: Arial, sans-serif;
+      color: #3995e0;
+    }
+    &__author {
+      font-size: 35px;
+      font-family: Arial, sans-serif;
+      font-style: italic;
+      font-weight: 100;
+      padding: 10px 0 40px;
+    }
+    &__from {
+      font-style: italic;
+      font-family: Arial, sans-serif;
+    }
+    &__book {
+      color: #3995e0;
+      font-family: Arial, sans-serif;
+    }
+    &__price {
+      background-color: #3995e0;
+      text-decoration: none;
+      width: 90%;
+      font-family: Arial, sans-serif;
+      border-radius: 5px;
+      margin: 20px auto;
+      padding: 7px 0;
+      display: block;
+      color: white;
+    }
+    &__about {
+      display: block;
+      width: 65%;
+      font-size: 19px;
+      font-family: Arial, sans-serif;
+    }
+    &__link {
+      text-decoration: none;
+      color: #3995e0;
+      font-family: Arial, sans-serif;
+    }
+    tr {
+      .first-column {
+        width: 30%;
+      }
+      td {
+        span {
+          display: block;
+        }
+      }
+
+    }
+  }
+  .footer {
+    width: 99%;
+    &__line {
+      background-color: #3995e0;
+      display: block;
+      height: 3px;
+    }
+    &__info {
+      padding: 10px 0 20px;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+    }
+  }
+}
+
+tr {
+  display: block;
+}
+
+p, span {
+  line-height: 24px;
+  -webkit-text-size-adjust:none;
+}
+
+img {
+  display: block;
+}

@@ -1,0 +1,104 @@
+.container .header {
+  width: 99%; }
+  .container .header__info {
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif; }
+  .container .header__about {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    width: 49%;
+    display: inline-block; }
+  .container .header__link {
+    font-size: 18px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    text-align: right;
+    width: 50%;
+    display: inline-block; }
+    .container .header__link a {
+      text-decoration: none; }
+  .container .header__line {
+    height: 3px;
+    background-color: #3995e0; }
+
+.container .content {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 60px; }
+  .container .content__wrap {
+    padding-bottom: 50px; }
+  .container .content__column {
+    text-align: center;
+    font-size: 24px; }
+  .container .content__column2 {
+    padding-left: 10px; }
+  .container .content__title {
+    height: 30px;
+    font-family: Arial, sans-serif;
+    color: red;
+    text-align: center;
+    width: 10%;
+    padding: 30px 0;
+    font-size: 40px; }
+  .container .content__name {
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    color: #3995e0; }
+  .container .content__author {
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    padding: 10px 0 40px; }
+  .container .content__from {
+    font-style: italic;
+    font-family: Arial, sans-serif; }
+  .container .content__book {
+    color: #3995e0;
+    font-family: Arial, sans-serif; }
+  .container .content__price {
+    background-color: #3995e0;
+    text-decoration: none;
+    width: 90%;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 7px 0;
+    display: block;
+    color: white; }
+  .container .content__about {
+    display: block;
+    width: 65%;
+    font-size: 19px;
+    font-family: Arial, sans-serif; }
+  .container .content__link {
+    text-decoration: none;
+    color: #3995e0;
+    font-family: Arial, sans-serif; }
+  .container .content tr .first-column {
+    width: 30%; }
+  .container .content tr td span {
+    display: block; }
+
+.container .footer {
+  width: 99%; }
+  .container .footer__line {
+    background-color: #3995e0;
+    display: block;
+    height: 3px; }
+  .container .footer__info {
+    padding: 10px 0 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif; }
+
+tr {
+  display: block; }
+
+p, span {
+  line-height: 24px;
+  -webkit-text-size-adjust: none; }
+
+img {
+  display: block; }
